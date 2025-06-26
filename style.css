@@ -1,0 +1,35 @@
+#export_btn {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+#cell_state {
+  font-weight: bold;
+  margin: 8px;
+}
+
+.row_container {
+  display: flex;
+}
+
+.cell {
+  width: 80px;
+  border: 1px solid lightgray;
+  height: 40px;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.cell.header_cell {
+  text-align: center;
+  background-color: #ddd;
+}
+
+.cell.header_cell.active {
+  background: lightblue;
+  color: white;
+}
